@@ -394,7 +394,7 @@ public final class StillImageActivity extends AppCompatActivity {
           Log.i(TAG, "Using Custom Object Detector Processor");
           LocalModel localModel =
               new LocalModel.Builder()
-                  .setAssetFilePath("tarot-detect.tflite")
+                  .setAssetFilePath("tarot-classify.tflite")
                   .build();
           // Multiple object detection in static images
           CustomObjectDetectorOptions customObjectDetectorOptions =
@@ -402,7 +402,7 @@ public final class StillImageActivity extends AppCompatActivity {
                     .setDetectorMode(CustomObjectDetectorOptions.SINGLE_IMAGE_MODE)
                     .enableMultipleObjects()
                     .enableClassification()
-                    .setClassificationConfidenceThreshold(0.5f)
+                    .setClassificationConfidenceThreshold(0.7f)
                     .setMaxPerObjectLabelCount(1)
                     .build();
           imageProcessor = new ObjectDetectorProcessor(this, customObjectDetectorOptions);
