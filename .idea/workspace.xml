@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="d21d141f-2e9b-47fa-a1d4-7ed5d04a0930" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/assets/automl/dict.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/assets/automl/manifest.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/assets/automl/model.tflite" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/assets/custom_models/bird_classifier.tflite" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/assets/labels.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/assets/tarot-classify.tflite" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/google/mlkit/vision/demo/BitmapUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/google/mlkit/vision/demo/CameraImageGraphic.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/google/mlkit/vision/demo/CameraSource.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/google/mlkit/vision/demo/CameraSourcePreview.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/google/mlkit/vision/demo/CameraXViewModel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/google/mlkit/vision/demo/EntryChoiceActivity.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/google/mlkit/vision/demo/FrameMetadata.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/google/mlkit/vision/demo/GraphicOverlay.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/google/mlkit/vision/demo/InferenceInfoGraphic.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/google/mlkit/vision/demo/ScopedExecutor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/google/mlkit/vision/demo/VisionImageProcessor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/google/mlkit/vision/demo/java/CameraXLivePreviewActivity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/google/mlkit/vision/demo/java/ChooserActivity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/google/mlkit/vision/demo/java/LivePreviewActivity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/google/mlkit/vision/demo/java/StillImageActivity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/google/mlkit/vision/demo/java/VisionProcessorBase.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/google/mlkit/vision/demo/java/barcodescanner/BarcodeGraphic.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/google/mlkit/vision/demo/java/barcodescanner/BarcodeScannerProcessor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/google/mlkit/vision/demo/java/facedetector/FaceDetectorProcessor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/google/mlkit/vision/demo/java/facedetector/FaceGraphic.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/google/mlkit/vision/demo/java/labeldetector/LabelDetectorProcessor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/google/mlkit/vision/demo/java/labeldetector/LabelGraphic.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/google/mlkit/vision/demo/java/objectdetector/ObjectDetectorProcessor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/google/mlkit/vision/demo/java/objectdetector/ObjectGraphic.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/google/mlkit/vision/demo/java/posedetector/PoseDetectorProcessor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/google/mlkit/vision/demo/java/posedetector/PoseGraphic.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/google/mlkit/vision/demo/java/textdetector/TextGraphic.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/google/mlkit/vision/demo/java/textdetector/TextRecognitionProcessor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/google/mlkit/vision/demo/kotlin/CameraXLivePreviewActivity.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/google/mlkit/vision/demo/kotlin/ChooserActivity.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/google/mlkit/vision/demo/kotlin/LivePreviewActivity.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/google/mlkit/vision/demo/kotlin/StillImageActivity.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/google/mlkit/vision/demo/kotlin/TaskExt.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/google/mlkit/vision/demo/kotlin/VisionProcessorBase.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/google/mlkit/vision/demo/kotlin/barcodescanner/BarcodeGraphic.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/google/mlkit/vision/demo/kotlin/barcodescanner/BarcodeScannerProcessor.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/google/mlkit/vision/demo/kotlin/facedetector/FaceDetectorProcessor.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/google/mlkit/vision/demo/kotlin/facedetector/FaceGraphic.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/google/mlkit/vision/demo/kotlin/labeldetector/LabelDetectorProcessor.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/google/mlkit/vision/demo/kotlin/labeldetector/LabelGraphic.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/google/mlkit/vision/demo/kotlin/objectdetector/ObjectDetectorProcessor.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/google/mlkit/vision/demo/kotlin/objectdetector/ObjectGraphic.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/google/mlkit/vision/demo/kotlin/posedetector/PoseDetectorProcessor.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/google/mlkit/vision/demo/kotlin/posedetector/PoseGraphic.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/google/mlkit/vision/demo/kotlin/textdetector/TextGraphic.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/google/mlkit/vision/demo/kotlin/textdetector/TextRecognitionProcessor.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/google/mlkit/vision/demo/preference/CameraXLivePreviewPreferenceFragment.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/google/mlkit/vision/demo/preference/LivePreviewPreferenceFragment.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/google/mlkit/vision/demo/preference/PreferenceUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/google/mlkit/vision/demo/preference/SettingsActivity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/google/mlkit/vision/demo/preference/StillImagePreferenceFragment.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/ic_settings_white_24dp.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/ic_switch_camera_white_48dp.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/ic_switch_camera_white_48dp_inset.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-mdpi/ic_settings_white_24dp.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-mdpi/ic_switch_camera_white_48dp.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-mdpi/ic_switch_camera_white_48dp_inset.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/ic_settings_white_24dp.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/ic_switch_camera_white_48dp.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/ic_switch_camera_white_48dp_inset.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/ic_settings_white_24dp.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/ic_switch_camera_white_48dp.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/ic_switch_camera_white_48dp_inset.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xxxhdpi/ic_settings_white_24dp.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xxxhdpi/ic_switch_camera_white_48dp.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xxxhdpi/ic_switch_camera_white_48dp_inset.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/list_item_background.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/logo_mlkit.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout-land/activity_vision_camerax_live_preview.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout-land/activity_vision_live_preview.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_chooser.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_still_image.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_vision_camerax_live_preview.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_vision_entry_choice.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_vision_live_preview.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/settings_style.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/spinner_style.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/toggle_style.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/menu/camera_button_menu.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/menu/live_preview_menu.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/menu/still_image_menu.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-hdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-mdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/arrays.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/colors.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/dimens.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/styles.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/xml/preference_live_preview_quickstart.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/xml/preference_still_image.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradle.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/local.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1kncKHiN8iJBqqp1fobPYLz2MWI" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d21d141f-2e9b-47fa-a1d4-7ed5d04a0930" name="Default Changelist" comment="" />
+      <created>1606339730766</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1606339730766</updated>
+    </task>
+    <servers />
+  </component>
+</project>
