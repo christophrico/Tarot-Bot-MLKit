@@ -46,7 +46,7 @@ public class ObjectGraphic extends Graphic {
         {Color.WHITE, Color.BLACK},
         {Color.BLACK, Color.GREEN}
       };
-  private static final String LABEL_FORMAT = "%.2f%%";
+  private static final String LABEL_FORMAT = "%.2f%% confidence (index: %d)";
 
   private final DetectedObject object;
   private final Paint[] boxPaints;
@@ -118,12 +118,11 @@ public class ObjectGraphic extends Graphic {
         rect.top,
         labelPaints[colorID]);
     yLabelOffset += TEXT_SIZE;
-    /*canvas.drawText(
+    canvas.drawText(
         "Tracking ID: " + object.getTrackingId(),
         rect.left,
         rect.top + yLabelOffset,
         textPaints[colorID]);
-     */
     yLabelOffset += lineHeight;
 
     for (Label label : object.getLabels()) {

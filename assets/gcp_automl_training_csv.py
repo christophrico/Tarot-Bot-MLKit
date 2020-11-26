@@ -1,6 +1,14 @@
 import os
 import pandas as pd
 
+"""
+Use this script to generate the CSV for training an AutoML vision model
+Images for each class should be sorted into a folder named for each class,
+
+Run this script from the same directory as the folders.
+"""
+
+#change this to the base path of the GCP bucket where your images are
 base_gcp_path = "gs://christophrico-462-classification-bucket"
 
 #get all the names of the class folders
@@ -35,5 +43,5 @@ for img_class in class_folders:
                     )
 
 #now save the csv
-filename = "tarot_classi_training_data.csv"
+filename = "classifier_training_data.csv"
 df.to_csv(filename)
