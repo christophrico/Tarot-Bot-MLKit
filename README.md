@@ -1,5 +1,5 @@
 <!-- HEADER -->
-![Header Image](./assets/tarot.jpg)
+![Header Image](./assets/readme_pics/tarot.jpg)
 <p align="center">
   <h1 align="center">TarotBot-MLKit</h1>
   <p align="center">
@@ -30,7 +30,7 @@ This project is a combination of object detection and image classification on an
 
 
 ## Dataset
-The dataset is custom. While many different Tarot decks exist, by far the most popular is the [Rider-Waite-Smith deck](https://en.wikipedia.org/wiki/Rider-Waite_tarot_deck), so I opted to go with that. I used a Google Pixel 3a to photograph the deck.
+The dataset is custom. While many different Tarot decks exist, by far the most popular is the [Rider-Waite-Smith deck](https://en.wikipedia.org/wiki/Rider-Waite_tarot_deck), so I opted to go with that. I used a Google Pixel 3a to photograph the cards.
 
 #### Class Selection
 Standard Tarot sets have 78 cards, each of which has a different interpretation when displayed right-side up or upside-down.
@@ -38,19 +38,19 @@ Unfortunately, developing a dataset with and training a custom object detection 
 
 #### Image Augmentation
 This task lent itself well to image augmentation. The majority of variability within each class is likely to come from different camera sensors, lighting, or photo angle (as opposed to natural variability within the class). I used the awesome Augmentor Python package to augment the size of the training dataset enormously.
-![Dataset photo](./assets/dataset.png)
+![Dataset photo](./assets/readme_pics/dataset.png)
 
 
 
 ## AutoML
-I used Google's AutoML Vision service to train and evaluate the models. This is a really nice, high-level service that makes machine learning model building so straightforward. It was a simple matter of uploading the photos to a Google Cloud storage bucket, [generating a CSV](./assets/gcp_automl_training_csv.py) to direct the model to each photo, then choosing the model output type I desired.
+I used Google's AutoML Vision service to train and evaluate the models. It's an awesome service that makes machine learning model building so straightforward. It was a simple matter of uploading the photos to a Google Cloud storage bucket, [generating a CSV](./assets/training_data/gcp_automl_training_csv.py) to direct the model to each photo, then choosing the model output type I desired.
 
 #### Object Detection vs Mutli-Class Classification
 Unfortunately, I wasted quite a bit of time (and GCP credit!) by first training an object detection model. Turns out that ML-Kit object detection has its own built-in object detector which relies on a user-supplied classification model to actually perform classification. In the end, I ended up training two models.
 
 That said, the second multi-class classification model I trained ended up being quite a bit more accurate and less computationally expensive than the initial object detection model.
-![Confusion Matrix](./assets/confusion_matrix.png)
-![AUROC](./assets/ROC.png)
+![Confusion Matrix](./assets/readme_pics/confusion_matrix.png)
+![AUROC](./assets/readme_pics/ROC.png)
 
 #### TFLite Output
 To make the model compact and quick enough that an edge device could store and run it, Tensorflow Lite is the model type that ML-Kit is built to work with. Thankfully, I was able to simply download this model from AutoML instead of having to generate it myself with the notoriously difficult TOCO command line tool.
@@ -63,13 +63,13 @@ To make the model compact and quick enough that an edge device could store and r
 ## ML-Kit
 Google's ML-Kit demo app made deployment of the model on an edge device pretty straightforward. The demo app has a **ton** of optional code to allow for demonstration of several different computer vision scenarios in both Java and Kotlin. However, getting a custom model deployed was a matter of editing a single file to add a custom detector option, then dropping the .tflite model into the [assets](./mlkit/app/src/main/assets) folder within the app directory.
 
-*For those curious, I added lines 74 and 393-408 in the [StillImageActivity.java](./mlkit/app/src/main/java/com/google/mlkit/vision/demo/java/StillImageActivity.java) file) according to the ML-Kit [object detection docs](https://developers.google.com/ml-kit/vision/object-detection/android) in order to implement my custom Tarot detector option. No, I am not very good with Java.*
+*For those curious, I added lines 74 and 393-408 in the [StillImageActivity.java](./mlkit/app/src/main/java/com/google/mlkit/vision/demo/java/StillImageActivity.java) file according to the ML-Kit [object detection docs](https://developers.google.com/ml-kit/vision/object-detection/android) in order to implement my custom Tarot detector option. No, I am not very good with Java.*
 
 
 
 
 ## Usage
-![Using the app in Android Studio](./assets/tarot_android_studio_usage.gif)
+![Using the app in Android Studio](./assets/readme_pics/tarot_android_studio_usage.gif)
 
 #### Instructions
 1. Clone this repo.
