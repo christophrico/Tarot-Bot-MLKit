@@ -30,7 +30,7 @@ This project is a combination of object detection and image classification on an
 
 
 ## Dataset
-The dataset is custom. While many different Tarot decks exist, by far the most popular is the [Rider-Waite-Smith tarot deck](https://en.wikipedia.org/wiki/Rider-Waite_tarot_deck), so I opted to go with that. I used a Google Pixel 3a to photograph the deck.
+The dataset is custom. While many different Tarot decks exist, by far the most popular is the [Rider-Waite-Smith deck](https://en.wikipedia.org/wiki/Rider-Waite_tarot_deck), so I opted to go with that. I used a Google Pixel 3a to photograph the deck.
 
 #### Class Selection
 Standard Tarot sets have 78 cards, each of which has a different interpretation when displayed right-side up or upside-down.
