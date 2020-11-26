@@ -74,7 +74,7 @@ Google's ML-Kit demo app made deployment of the model on an edge device pretty s
 ##### Instructions
 1. Clone this repo.
 2. Install Android Studio.
-3. Open Android studio, choose the option to Open an Existing Project. Select the `mlkit` folder within the repo. Approve any Gradle or APK updates.
+3. Open Android studio, choose the option to *Open an Existing Project*. Select the `mlkit` folder within the repo. Approve any Gradle or APK updates.
 4. Once Gradle finishes syncing, click the green play button on the top right to run the app on an Android emulator.
 5. Upload photos to the downloads folder of the emulator (there are already a few in `assets/test_photos` within this repo).
 6. Launch the MLKit App, choose  *Run the ML Kit quickstart written in Java*, then *StillImageActivity*.
