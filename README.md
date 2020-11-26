@@ -29,7 +29,6 @@ This project is a combination of object detection and image classification on an
 
 
 
-***
 ## Dataset
 The dataset is custom. While many different Tarot decks exist, by far the most popular is the [Rider-Waite-Smith tarot deck](https://en.wikipedia.org/wiki/Rider-Waite_tarot_deck), so I opted to go with that. I used a Google Pixel 3a to photograph the deck.
 
@@ -42,7 +41,7 @@ This task lent itself well to image augmentation. The majority of variability wi
 ![Dataset photo](./assets/dataset.png)
 
 
-***
+
 ## AutoML
 I used Google's AutoML Vision service to train and evaluate the models. This is a really nice, high-level service that makes machine learning model building so straightforward. It was a simple matter of uploading the photos to a Google Cloud storage bucket, [generating a CSV](./assets/gcp_automl_training_csv.py) to direct the model to each photo, then choosing the model output type I desired.
 
@@ -60,7 +59,7 @@ To make the model compact and quick enough that an edge device could store and r
 
 
 
-***
+
 ## ML-Kit
 Google's ML-Kit demo app made deployment of the model on an edge device pretty straightforward. The demo app has a **ton** of optional code to allow for demonstration of several different computer vision scenarios in both Java and Kotlin. However, getting a custom model deployed was a matter of editing a single file to add a custom detector option, then dropping the .tflite model into the [assets](./mlkit/app/src/main/assets) folder within the app directory.
 
@@ -68,10 +67,11 @@ Google's ML-Kit demo app made deployment of the model on an edge device pretty s
 
 
 
-***
+
 ## Usage
 ![Using the app in Android Studio](./assets/tarot_android_studio_usage.gif)
 
+##### Instructions
 1. Clone this repo.
 2. Install Android Studio.
 3. Open Android studio, choose the option to Open an Existing Project. Select the `mlkit` folder within the repo. Approve any Gradle or APK updates.
